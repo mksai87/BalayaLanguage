@@ -1,0 +1,120 @@
+thankyou for download
+
+if you want to make your own  programing language see this playlist
+https://www.youtube.com/watch?v=Eythq9848Fg&list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD
+
+please send me a screenshot of what you do using this language this is my Instagram ID
+https://www.instagram.com/saikrishna.makkena.3/?hl=en
+
+
+
+
+KEYWORDS
+
+1. `IDHIGO_BALAYA`: Used to declare variables. Syntax: `IDHIGO_BALAYA variable_name = value;`
+
+2. `INKA`: Used for logical conjunction. Syntax: `condition1 INKA condition2`
+
+3. `KAKA`: Used for logical disjunction. Syntax: `condition1 KAKA condition2`
+
+4. `NOT`: Used for logical negation. Syntax: `NOT condition`
+
+5. `BALAYA_IPUDU`: Used for conditional branching. Syntax:
+   ```
+   BALAYA_IPUDU condition ITE_APPUDU
+       statement
+   LEDHA_BALAYA condition ITE_APPUDU
+       statement
+   LEKAPOTE
+       statement
+   CHALU_BALAYA
+   ```
+
+6. `LEDHA_BALAYA`: Stands for "else if", used within an `IF` statement. Syntax: `LEDHA_BALAYA condition ITE_APPUDU statement`
+
+7. `LEKAPOTE`: Used within an `IF` statement to specify a default branch. Syntax: `LEKAPOTE statement`
+
+8. `TIPU_BALAYA`: Used for loop iteration. Syntax:
+   ```
+   TIPU_BALAYA variable_name = start_value NUNDI end_value [STEP step_value] ITE_APPUDU
+       statement
+   CHALU_BALAYA
+   ```
+
+9. `NUNDI`: Specifies the end value in a `FOR` loop. Syntax: `TIPU_BALAYA  variable_name = start_value NUNDI end_value`
+
+10. `STEP`: Specifies the step value in a `FOR` loop. Syntax: `FOR variable_name = start_value TO end_value STEP step_value`
+
+11. `VUPU_BALAYA`: Used for loop iteration with a condition. Syntax:
+    ```
+    VUPU_BALAYA condition ITE_APPUDU
+        statement
+    CHALU_BALAYA
+    ```
+
+12. `NBK`: Used to define functions. Syntax:
+    ```
+    NBK function_name(parameter1, parameter2, ...) ITE_APPUDU
+        function_body
+    CHALU_BALAYA
+    ```
+
+13. `ITE_APPUDU`: Used to mark the beginning of a block of statements in control structures like `IF`, `FOR`, `WHILE`, etc. Syntax: `BALAYA_IPUDU condition ITE_APPUDU statement`
+
+14. `CHALU_BALAYA`: Marks the end of a control structure like `IF`, `FOR`, `WHILE`, etc. Syntax: ``BALAYA_IPUDU  condition ITE_APPUDU statement CHALU_BALAYA`
+
+15. `PAMPU_BALAYA`: Used to return a value from a function. Syntax: `PAMPU_BALAYA value`
+
+16. `KANI_BALAYA`: Used to skip the current iteration of a loop and continue with the next iteration. Syntax: `KANI_BALAYA`
+
+17. `AAPAY_BALAYA`: Used to exit the loop. Syntax: `AAPAY_BALAYA`
+
+These keywords define the structure and behavior of the programming language you're working with. They help in controlling the flow of execution, defining conditions, looping, and defining functions.
+
+---- functions-----
+
+Sure, here's a brief explanation of each keyword along with its syntax:
+
+1. `NULL`: Represents a null value or absence of a value. Syntax: `NULL`
+
+2. `ABADHAM`: Represents the boolean value false. Syntax: `ABADHAM`
+
+3. `NIJAM`: Represents the boolean value true. Syntax: `NIJAM`
+
+4. `MATH_PI`: Represents the mathematical constant pi. Syntax: `MATH_PI`
+
+5. `CHEPU_BALAYA`: Used to output a value to the console. Syntax: `CHEPU_BALAYA( value)`
+
+6. `CHEPU_BALAYA_RET`: Used to output a value to the console and return it. Syntax: `CHEPU_BALAYA_RET(value)`
+
+7. `VINU_BALAYA`: Used to get input from the user. Syntax: `VINU_BALAYA( message)`
+
+8. `INT_NI_VINU_BALAYA`: Used to get integer input from the user. Syntax: `INT_NI_VINU_BALAYA message`
+
+9. `CLEAR`: Clears the console or terminal screen. Syntax: `CLEAR` or `CLS`
+
+10. `CLS`: An alternative to `CLEAR` for clearing the console or terminal screen. Syntax: `CLEAR` or `CLS`
+
+11. `IS_NUM`: Checks if a value is a number. Syntax: `IS_NUM value`
+
+12. `IS_STR`: Checks if a value is a string. Syntax: `IS_STR value`
+
+13. `IS_LIST`: Checks if a value is a list. Syntax: `IS_LIST value`
+
+14. `IS_FUN`: Checks if a value is a function. Syntax: `IS_FUN value`
+
+15. `THOI_BALAYA`: Adds an element to the end of a list. Syntax: `THOI_BALAYA( list, value)`
+
+16. `THI_BALAYA`: Removes and returns the last element from a list. Syntax: `THI_BALAYA(list,value)`
+
+17. `ATIKI_BALAYA`: Extends a list by appending elements from another list. Syntax: `ATIKI_BALAYA( list, other_list)`
+
+18. `PODAVU"`: Returns the length of a list. Syntax: `PODAVU(list)`
+
+19. `RUN`: Executes a function. Syntax: `RUN ("function_name.balaya")`
+
+These keywords provide functionality for common tasks such as input/output, type checking, list manipulation, and mathematical operations. They help in building interactive and functional programs.
+
+
+
+
